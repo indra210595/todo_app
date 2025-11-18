@@ -71,14 +71,14 @@ class TaskDialogs {
                         if (picked != null) {
                           DateTime scheduledTime;
 
-                          // 1. KALO TANGGAL YANG DIPILIH ADALAH HARI INI
+                          // KALO TANGGAL YANG DIPILIH ADALAH HARI INI
                           if (picked.day == DateTime.now().day &&
                               picked.month == DateTime.now().month &&
                               picked.year == DateTime.now().year) {
                             // Jadwalkan 1 menit dari sekarang buat testing
                             scheduledTime = DateTime.now().add(const Duration(minutes: 1));
                           } else {
-                            // 2. KALO TANGGAL YANG DIPILIH ADALAH BESOK/LUSA
+                            // KALO TANGGAL YANG DIPILIH ADALAH BESOK/LUSA
                             // Jadwalkan jam 9 pagi
                             scheduledTime = DateTime(picked.year, picked.month, picked.day, 9, 0, 0);
                           }
@@ -224,14 +224,14 @@ class TaskDialogs {
                         if (picked != null && picked != selectedDate) {
                           DateTime scheduledTime;
 
-                          // 1. KALO TANGGAL YANG DIPILIH ADALAH HARI INI
+                          // KALO TANGGAL YANG DIPILIH ADALAH HARI INI
                           if (picked.day == DateTime.now().day &&
                               picked.month == DateTime.now().month &&
                               picked.year == DateTime.now().year) {
                             // Jadwalkan 1 menit dari sekarang buat testing
                             scheduledTime = DateTime.now().add(const Duration(minutes: 1));
                           } else {
-                            // 2. KALO TANGGAL YANG DIPILIH ADALAH BESOK/LUSA
+                            // KALO TANGGAL YANG DIPILIH ADALAH BESOK/LUSA
                             // Jadwalkan jam 9 pagi
                             scheduledTime = DateTime(picked.year, picked.month, picked.day, 9, 0, 0);
                           }

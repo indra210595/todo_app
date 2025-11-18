@@ -50,7 +50,6 @@ class CategoryDialogs {
                   const SizedBox(height: 16),
                   const Text('Select Color'),
                   const SizedBox(height: 8),
-                  // INI ADALAH BAGIAN YANG DIUBAH
                   SizedBox(
                     height: 50,
                     child: SingleChildScrollView(
@@ -133,7 +132,6 @@ class CategoryDialogs {
                   const SizedBox(height: 16),
                   const Text('Select Color'),
                   const SizedBox(height: 8),
-                  // INI ADALAH BAGIAN YANG DIUBAH
                   SizedBox(
                     height: 50,
                     child: SingleChildScrollView(
