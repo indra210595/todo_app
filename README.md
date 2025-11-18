@@ -16,7 +16,7 @@ A simple yet feature-rich To-Do List application built with Flutter and Provider
 
 ## 📸 Screenshots and GIF
 1. Local Notification
-![Local Notification](assets/local_notification.gif)
+![Local Notification](assets/local_notification.jpg)
 
 2. Demo App
 ![Demo App](assets/Demo.gif)
